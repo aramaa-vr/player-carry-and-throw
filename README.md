@@ -20,14 +20,18 @@
 
 ## 配布確認
 
-GitHub Releasesに添付する導入用ZIPは `jp.aramaa.player-carry-and-throw-0.0.1.zip` です。GitHubが自動生成する「Source code (zip)」「Source code (tar.gz)」はリポジトリのスナップショットで、導入用ZIPとは別です。
+GitHub Releasesに添付する導入用ZIPは `jp.aramaa.player-carry-and-throw-0.0.1.zip` です。[配布リポジトリのReleases](https://github.com/aramaa-vr/player-carry-and-throw/releases)から、公開後に取得してください。GitHubが自動生成する「Source code (zip)」「Source code (tar.gz)」はリポジトリのスナップショットで、導入用ZIPとは別です。
 
 **同じIDのギミック本体を導入済みのプロジェクトを0.0.1へダウングレードしないでください。** 別のテストプロジェクトで確認してください。SDK・TMP・uGUI等を導入する依存関係はありません。
 
 VCC用ZIPではPDFを `Documentation~/Licenses/VN3/` に収録します。このリポジトリの `docs/licenses/VN3/` とは配置が異なります。
 
-## 公開準備の状態と今後の更新
+## VCC／VPMの登録先と今後の更新
 
-[更新履歴](CHANGELOG.md)と[VPM Listingの下書き](index.json)を収録しています。公開先情報が未確定のため、現時点の `index.json` は公開用として未完成です。公開前にListing自身のURLと、0.0.1のRelease添付ZIPの実URLを設定してください。`zipSHA256` は今回作成したZIPから計算した値です。
+VCCで使用する登録先は、既存の[Aramaa VPM Listing](https://aramaa-vr.github.io/vpm-repos/vpm.json)を予定しています。本パッケージはまだ追記していないため、現時点ではListingから導入できません。
+
+[更新履歴](CHANGELOG.md)と[本パッケージだけの登録情報](index.json)を収録しています。`index.json` は既存Listingへ追記する際の参照用です。既存 `vpm.json` の `packages` に `jp.aramaa.player-carry-and-throw` の項目を追記し、既存パッケージの項目は維持してください。
+
+0.0.1の配布設定は、Releaseタグ `0.0.1` と添付ZIP名 `jp.aramaa.player-carry-and-throw-0.0.1.zip` を前提にしています。URLは公開予定先であり、ZIPの公開・Listingへの追記は未実施です。`zipSHA256` は今回作成したZIPから計算した値です。
 
 今後はVCC用パッケージZIPをGitHub Releasesへ追加し、README・更新履歴・VPM Listingを必要に応じて更新します。開発プロジェクト全体やギミックのソースはこのリポジトリに持ち込みません。
