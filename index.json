@@ -1,0 +1,23 @@
+{
+  "name": "だこちてギミック【ワールド版】",
+  "id": "jp.aramaa.player-carry-and-throw",
+  "author": "あらまあ",
+  "packages": {
+    "jp.aramaa.player-carry-and-throw": {
+      "versions": {
+        "0.0.1": {
+          "name": "jp.aramaa.player-carry-and-throw",
+          "version": "0.0.1",
+          "displayName": "だこちてギミック【ワールド版】",
+          "description": "利用規約版1.0のPDFと案内のみを収録する初回の配布確認用パッケージ。ギミック本体は含まず、ギミックやメニューは追加されません。",
+          "author": {
+            "name": "あらまあ",
+            "email": "arasimaa.game@gmail.com"
+          },
+          "license": "See LICENSE.md file",
+          "zipSHA256": "225843c51afbb87f87a99b82b6bda12b897a01e8ab62ac640d034d54534bdcf9"
+        }
+      }
+    }
+  }
+}
