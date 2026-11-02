@@ -1,37 +1,14 @@
 # だこちてギミック【ワールド版】
 
-権利者：あらまあ  
-パッケージID：`jp.aramaa.player-carry-and-throw`
+VRChat Worlds向けのプレイヤー抱っこ・投げギミックの配布リポジトリです。
 
-パッケージ版 **0.0.1** は、利用規約のみを収録する初回の配布確認用パッケージです。初回公開予定であり、ギミック本体は含まれません。導入してもギミックやメニューは追加されません。
+パッケージID：`jp.aramaa.player-carry-and-throw` ／ 権利者：あらまあ
 
-## 利用規約
+導入方法・遊び方は[説明サイト](https://aramaa-vr.github.io/player-carry-and-throw-pages/)をご覧ください。パッケージのダウンロード・追加・更新にはVRChat Creator Companion（VCC）を使用します。
 
-利用規約版は **1.0** です。パッケージ版0.0.1とは別の番号です。
+- [VCCに配布リポジトリを追加](https://aramaa-vr.github.io/vpm-repos/redirect.html)
+- [利用規約（ライセンス）](LICENSE.md)
+- [第三者素材のライセンスとクレジット](<Third Party Notices.md>)
+- [公開版の更新履歴](CHANGELOG.md)
 
-- [日本語版VN3ライセンスPDF（正式な利用規約）](docs/licenses/VN3/20261031051655vn3license_ja.pdf)
-- [英語版（参考資料）](docs/licenses/VN3/20261031051655vn3license_en.pdf)
-- [中国語版（参考資料）](docs/licenses/VN3/20261031051655vn3license_zh.pdf)
-- [韓国語版（参考資料）](docs/licenses/VN3/20261031051655vn3license_ko.pdf)
-
-あらまあ制作の本ギミックの改変、VRChatワールドへの導入・公開は、利用規約の範囲内で許可されます。ギミック本体および改変版の二次配布は禁止されます。利用条件の詳細は日本語版PDFを確認してください。この案内は原本に条件や例外を追加するものではありません。
-
-第三者素材にはそれぞれ個別のライセンスが適用され、VN3の案内がその許諾を制限するものではありません。今回の配布物には音源・フォント等の第三者素材を含みません。[利用規約の案内](LICENSE.md)も参照してください。
-
-## 配布確認
-
-GitHub Releasesに添付する導入用ZIPは `jp.aramaa.player-carry-and-throw-0.0.1.zip` です。[配布リポジトリのReleases](https://github.com/aramaa-vr/player-carry-and-throw/releases)から、公開後に取得してください。GitHubが自動生成する「Source code (zip)」「Source code (tar.gz)」はリポジトリのスナップショットで、導入用ZIPとは別です。
-
-**同じIDのギミック本体を導入済みのプロジェクトを0.0.1へダウングレードしないでください。** 別のテストプロジェクトで確認してください。SDK・TMP・uGUI等を導入する依存関係はありません。
-
-VCC用ZIPではPDFを `Documentation~/Licenses/VN3/` に収録します。このリポジトリの `docs/licenses/VN3/` とは配置が異なります。
-
-## VCC／VPMの登録先と今後の更新
-
-VCCで使用する登録先は、既存の[Aramaa VPM Listing](https://aramaa-vr.github.io/vpm-repos/vpm.json)を予定しています。本パッケージはまだ追記していないため、現時点ではListingから導入できません。
-
-[更新履歴](CHANGELOG.md)と[本パッケージだけの登録情報](index.json)を収録しています。`index.json` は既存Listingへ追記する際の参照用です。既存 `vpm.json` の `packages` に `jp.aramaa.player-carry-and-throw` の項目を追記し、既存パッケージの項目は維持してください。
-
-0.0.1の配布設定は、Releaseタグ `0.0.1` と添付ZIP名 `jp.aramaa.player-carry-and-throw-0.0.1.zip` を前提にしています。URLは公開予定先であり、ZIPの公開・Listingへの追記は未実施です。`zipSHA256` は今回作成したZIPから計算した値です。
-
-今後はVCC用パッケージZIPをGitHub Releasesへ追加し、README・更新履歴・VPM Listingを必要に応じて更新します。開発プロジェクト全体やギミックのソースはこのリポジトリに持ち込みません。
+このリポジトリでは配布用の登録情報（[index.json](index.json)）、利用規約、ライセンス通知、公開版の更新履歴を管理します。導入・操作の説明は説明サイトで管理します。
