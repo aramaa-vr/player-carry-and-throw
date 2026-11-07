@@ -3,3 +3,8 @@
 .gitignore text eol=lf
 .gitattributes text eol=lf
 *.pdf binary
+
+# Preserve the exact shared license and shortcut bytes.
+docs/licenses/** -text
+docs/licenses/**/*.md text eol=lf
+*.url -text

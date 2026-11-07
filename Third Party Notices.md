@@ -8,7 +8,7 @@
 
 (c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
 
-SIL Open Font License 1.1。著作権表記は同梱TTFのnameテーブルに従います。[ライセンス全文](docs/licenses/NotoSansJP.txt)を同梱します。
+SIL Open Font License 1.1。著作権表記は同梱TTFのnameテーブルに従います。[ライセンス全文](https://github.com/aramaa-vr/player-carry-and-throw/blob/master/docs/licenses/NotoSansJP.txt)を同梱します。
 
 ## OtoLogic
 
@@ -23,7 +23,7 @@ SIL Open Font License 1.1。著作権表記は同梱TTFのnameテーブルに従
 
 これらの音源にはPlayerCarryAndThrow独自の利用規約ではなく、OtoLogic／CC BY 4.0のライセンス条件が適用されます。PlayerCarryAndThrow独自の再配布禁止等の条件は、これらの音源のCC BY 4.0上の権利を制限しません。
 
-音源の変更について、既存の[収録記録](docs/licenses/OtoLogic.md)ではユーザー提供のMP3を内容変更・形式変換なしで収録しています。原配布ファイルとの照合は未実施です。UnityのAudioClipへのインポートと、AudioSource／VRC Spatial Audioによる再生時の音量・空間化・距離減衰の設定があります。今回、音源ファイルやインポート・再生設定は変更していません。
+同梱MP3の内容変更・形式変換は行っていません。Unityへのインポートと、再生時の音量・空間化・距離減衰の設定があります。[素材ごとのクレジットと利用条件](https://github.com/aramaa-vr/player-carry-and-throw/blob/master/docs/licenses/OtoLogic.md)を確認してください。
 
 公開ワールドの説明・クレジット等には、例えば次のように表示してください。音源を改変した場合は変更内容も表示してください。
 
@@ -35,7 +35,9 @@ SIL Open Font License 1.1。著作権表記は同梱TTFのnameテーブルに従
 
 TextMesh Pro copyright © 2021 Unity Technologies ApS
 
-Unity Companion License。元パッケージの[ライセンス表記](docs/licenses/TextMeshPro.md)を同梱します。Unity依存のプロジェクトで使用してください。
+Unity Companion License。元パッケージの[ライセンス表記](https://github.com/aramaa-vr/player-carry-and-throw/blob/master/docs/licenses/TextMeshPro.md)を同梱します。Unity依存のプロジェクトで使用してください。
+
+ZIP内のライセンス原本・通知は、パッケージ直下の `Documentation~/Licenses/` フォルダーにも収録しています。配布リポジトリ・BOOTH資料では、資料直下の `docs/licenses/` フォルダーにあります。
 
 ## 別途取得する依存パッケージ
 
