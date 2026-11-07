@@ -21,7 +21,7 @@ SIL Open Font License 1.1。著作権表記は同梱TTFのnameテーブルに従
 
 公式サイト：[OtoLogic](https://otologic.jp/)。ライセンス：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。[OtoLogic公式利用規約](https://otologic.jp/free/license.html)を参照してください。
 
-これらの音源にはPlayerCarryAndThrow独自の利用規約ではなく、OtoLogic／CC BY 4.0のライセンス条件が適用されます。PlayerCarryAndThrow独自の再配布禁止等の条件は、これらの音源のCC BY 4.0上の権利を制限しません。
+これらの音源にはだこちてギミック【ワールド版】独自の利用規約ではなく、OtoLogic／CC BY 4.0のライセンス条件が適用されます。だこちてギミック【ワールド版】独自の再配布禁止等の条件は、これらの音源のCC BY 4.0上の権利を制限しません。
 
 同梱MP3の内容変更・形式変換は行っていません。Unityへのインポートと、再生時の音量・空間化・距離減衰の設定があります。[素材ごとのクレジットと利用条件](https://github.com/aramaa-vr/player-carry-and-throw/blob/master/docs/licenses/OtoLogic.md)を確認してください。
 
